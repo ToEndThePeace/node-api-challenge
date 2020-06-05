@@ -16,12 +16,12 @@ The Minimum Viable Product must be completed in three hours.
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your _Team Lead_ as collaborator on Github.
-- [ ] Clone your forked version of the Repository.
-- [ ] Create a new Branch on the clone: git checkout -b `firstName-lastName`.
-- [ ] Implement the project on this Branch, committing changes regularly.
-- [ ] Push commits: git push origin `firstName-lastName`.
+- [x] Create a forked copy of this project.
+- [x] Add your _Team Lead_ as collaborator on Github.
+- [x] Clone your forked version of the Repository.
+- [x] Create a new Branch on the clone: git checkout -b `firstName-lastName`.
+- [x] Implement the project on this Branch, committing changes regularly.
+- [x] Push commits: git push origin `firstName-lastName`.
 
 Follow these steps for completing your project.
 
@@ -40,13 +40,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+I learned how to create custom middleware and how the flow of middleware works in a request.
+
 - [ ] Describe Middleware?
+
+Middleware is a function that intercepts incoming requests and performs some action on it - logging, error handling, data validation - before passing it on to the next item in the server's load order.
 
 - [ ] Describe a Resource?
 
+A resource is just data that has an expected shape - like a database table with required properties or a Javascript class.
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+The api returns different HTTP status codes depending on the operations performed or the errors encountered. Something in the 200s (mostly 200, 201, or 204) would mean a success.
+
 - [ ] How can we partition our application into sub-applications?
+
+We can break our API up into different routers. Using routers, we can keep our code modular so that it's easier to maintain and debug.
 
 ## Minimum Viable Product
 
