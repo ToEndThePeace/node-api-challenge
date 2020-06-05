@@ -1,6 +1,7 @@
 // Server Setup
 const express = require("express");
 const server = express();
+server.use(require("cors")());
 server.use(express.json());
 
 // Router Imports
